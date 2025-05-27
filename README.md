@@ -1,13 +1,6 @@
-# Permissions Scripts
-
-This directory contains scripts related to Linux file permissions.
+# ALU Shell Project - Permissions
 
 ## 0-iam_betty
 
-This script switches the current user to user "betty" using the command:
+This script switches the current user to 'betty'. It starts with a bash shebang and is exactly two lines long.
 
-```bash
-su betty
-```
-
-It is exactly two lines long, starts with the bash shebang, and is executable.
