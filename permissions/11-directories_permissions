@@ -1,6 +1,2 @@
 #!/bin/bash
-# Add execute permissions (rwx) for owner, group, and others on all directories in current dir
-
-for d in */ ; do
-    [ -d "$d" ] && chmod a+x "$d"
-done
+chmod a+x */
