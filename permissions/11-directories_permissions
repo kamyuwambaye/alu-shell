@@ -1,0 +1,4 @@
+#!/bin/bash
+# Add execute permission to owner, group, others on all subdirectories
+
+find . -type d -exec chmod a+x {} +
